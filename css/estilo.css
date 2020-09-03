@@ -1,0 +1,167 @@
+
+/* Limpar Formatação Padrão */
+*{
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	font-size: 1em;
+	font-family: Arial, Helvetica, sans-serif;
+	background: #E6E6E6;
+}
+
+/* 
+****** Layout ******
+*/
+
+#area-cabecalho{
+	background: #2E9AFE;
+	padding: 15px;
+	text-align: center;
+}
+
+#area-logo, #area-menu{
+	font-weight: bold;
+	padding: 10px;
+}
+
+
+#area-principal{
+	width: 920px;
+	margin: 0 auto;
+	padding: 15px;
+
+}
+
+
+#postagens{
+	width: 660px;
+	float: left;
+}
+
+
+#area-lateral{
+	width: 240px;
+	float: right;
+}
+
+
+.postagem{
+	padding: 20px;
+	margin-bottom: 20px;
+	font-weight: bold;
+	background: white;
+}
+
+
+.conteudo-lateral{
+	background: white;
+	padding: 15px 10px;
+	margin-bottom: 20px;
+
+}
+
+
+#rodape{
+	background: #8F8E8C;
+	color: white;
+	clear: both;
+	text-align: center;	
+	padding: 15px;
+	font-weight: bold;
+}
+
+
+.postagem-lateral{
+	font-size: 0.8em;
+	padding: 4px;
+	border-bottom: 1px solid #CCC;	
+}
+
+
+/* 
+****** Formatação do Menu ******
+*/
+
+a{
+	text-decoration: none;
+	padding-bottom: 100px;
+}
+
+
+a:link, a:visited {
+	color: #2E9AFE;	
+	font-weight: bold;
+
+
+}
+
+a:hover{
+	color: #08088A;
+	text-decoration: underline;
+
+}
+
+
+
+ #area-cabecalho a:link, #area-cabecalho a:visited {
+	color: #FFF;	
+	padding: 8px 12px;
+
+}
+
+#area-cabecalho a:hover{
+	color:#2E9AFE;
+	background: #FFF;
+	text-decoration: none;
+}
+
+#area-cabecalho a:active{
+	color: #D8D8D8;
+}
+
+
+
+
+
+/* 
+****** Formatação Geral ******
+*/
+h1{
+	color: #33322C;
+}
+
+h2{
+	color: #2E9AFE;
+}
+
+h3{
+	color: #FFFFFF;
+	padding: 5px;	
+	background: #2E9AFE;
+	margin-bottom: 10px;
+
+}
+
+
+.branco{
+	color: white;
+
+}
+
+.data-postagem{
+	font-size: 0.8em;
+	border-bottom: 1px solid #BDBDBD;
+	padding-bottom: 10px;
+	margin-bottom: 10px;
+	display: block;
+
+
+}
+
+.paragrafo{
+	margin-top: 10px;
+	margin-bottom: 15px;
+}
+
